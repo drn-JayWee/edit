@@ -1,34 +1,42 @@
+body {
+	background-color: #282c34;
+}
+
 p {
 	color: whitesmoke;
 	font-style: italic;
-    font-family: serif;
+	font-size: x-large;
 }
 
-
-
-.App {
-	text-align: center;
-}
-
-.App-header {
+textarea {
+	width: 20rem;
+	height: 10rem;
 	background-color: #282c34;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+	color: whitesmoke;
+	font-size: 1.1rem;
+    font-family: monospace;
+	
+}
+
+
+.info div {
+	color: tomato;
+	padding: 1rem 2rem;
+	font-size: xx-large;
+}
+.new-form {
+	margin: 1rem 2rem;
 	align-items: center;
-	justify-content: center;
-	color: white;
+}
+.form-btn{
+	margin: .3rem 0;
+	padding: .7rem 4rem;
+	color: whitesmoke;
+	background-color: #282c34;
+	border-radius: 5rem;
 }
 
-.cart {
-	width: 13rem;
-	height: 4rem;
-	border: solid black .1rem;
-	-webkit-box-shadow: 28px 24px 28px 13px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 28px 24px 28px 13px rgba(0, 0, 0, 0.4);
-	box-shadow: 28px 24px 28px 13px rgba(0, 0, 0, 0.4);
+.form-btn:hover {
+	background-color: brown;
 }
 
-.cart:hover {
-	background-color: #16161693;
-}
